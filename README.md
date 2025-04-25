@@ -20,9 +20,9 @@ VALUES('T-Shirt', 'long-sleeve', 19.99, 1),
 
 
 INSERT INTO product_image (product_id, image_url, is_primary)  
-VALUES(1, 'https://example.com/images/tshirt_red.jpg', TRUE),
-      (2, 'https://example.com/images/sneakers_black.jpg', TRUE),
-      (3, 'https://example.com/images/headphones.jpg', TRUE),
+VALUES(1, '/images/tshirt_red.jpg', TRUE),
+      (2, 'images/sneakers_black.jpg', TRUE),
+      (3, 'images/headphones.jpg', TRUE),
       
 INSERT INTO product_item (product_id, color_id, size, stock_quantity, price) VALUES 
 (1, 1, 'M', 100, 19.99),  -- Adidas T-shirt
